@@ -152,7 +152,7 @@ UPDATE layoffs_staging2
 SET industry = NULL
 WHERE industry = '';
 
---The same company's industry name is blank in one record and not blank in another. It should be the same name, so we use a JOIN here.
+--The same company's industry name is blank in one record and not blank in another. It should be the same name, so I used a JOIN.
 SELECT T1.industry, T2.industry
 FROM layoffs_staging2 T1
 JOIN layoffs_staging2 T2 
