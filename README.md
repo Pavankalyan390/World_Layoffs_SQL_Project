@@ -18,7 +18,7 @@
 
 ## Creating Table
 ```sql
-create table layoffs_staging(
+create table layoffs(
 Company varchar(50),
 Location varchar(30),
 Industry text,
