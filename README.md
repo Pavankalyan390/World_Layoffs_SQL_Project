@@ -13,7 +13,7 @@
 ## Project Structure
 
 - Data Import: Inserting sample data into the tables.
-- Data Cleaning: Handling null values and ensuring data integrity.
+- Data Cleaning: Handle null values and ensuring data integrity.
 - Duplicate Table: For best practice Created duplicate data like layoff_staging to keep original raw data safe.
 
 ## Creating Table
